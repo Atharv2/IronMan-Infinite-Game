@@ -32,11 +32,11 @@ function setup() {
 
   button1 = createButton("R");
   button1.size(50,50);
-  button1.position(320,480);
+  button1.position(320,600);
    button1.mouseClicked(moveRight);
   button2 = createButton("L");
   button2.size(50,50);
-  button2.position(60,480);
+  button2.position(60,600);
    button2.mouseClicked(moveLeft);
   
   
